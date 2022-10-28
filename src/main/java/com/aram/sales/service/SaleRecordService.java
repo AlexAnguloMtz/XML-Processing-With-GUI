@@ -5,7 +5,7 @@ import com.aram.sales.model.SaleRecord;
 import java.util.List;
 
 /**
- * Service class to find Sale Records
+ * Service interface to find Sale Records
  *
  * @author Alex Angulo
  */
