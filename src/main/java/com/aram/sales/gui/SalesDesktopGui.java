@@ -40,6 +40,7 @@ public class SalesDesktopGui extends JFrame {
         setTitle("Sales Report");
         setSize(1000,500);
         setResizable(false);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     private Component tables() {
