@@ -85,6 +85,11 @@ public class XmlSaleRecordHandler extends DefaultHandler  {
 
         }
 
+        public List<SaleRecord> getAllSaleRecords() {
+        return saleRecords;
+    }
+
+
         private SaleRecord parsedSaleRecord() {
             return saleRecordBuilder.build();
         }
@@ -93,8 +98,5 @@ public class XmlSaleRecordHandler extends DefaultHandler  {
             stringBuilder.delete(0, stringBuilder.length());
         }
 
-        public List<SaleRecord> getAllSaleRecords() {
-            return saleRecords;
-        }
 
 }
