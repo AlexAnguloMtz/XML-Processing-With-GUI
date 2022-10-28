@@ -32,7 +32,6 @@ public class XmlSaleRecordHandler extends DefaultHandler  {
         private final SaleRecord.Builder saleRecordBuilder;
         private List<SaleRecord> saleRecords;
         private StringBuilder elementBuilder;
-
         private String currentElementBeingParsed;
 
         public XmlSaleRecordHandler() {
