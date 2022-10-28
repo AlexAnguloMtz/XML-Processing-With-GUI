@@ -46,6 +46,13 @@ import static javax.swing.SwingUtilities.invokeLater;
  *  This application could be easily adaptable
  *  to a web format, we would only need to add a REST API layer.
  *
+ *  3) Extra: Java 8 and Functional Programming
+ *
+ *  This project uses both Object-Oriented Programming
+ *  and also Functional Programming. The model class SalesReport makes
+ *  heavy use of Java 8 Functional Programming features,
+ *  like lambdas, method references and Streams.
+ *
  *  @author Alex Angulo
  */
 
