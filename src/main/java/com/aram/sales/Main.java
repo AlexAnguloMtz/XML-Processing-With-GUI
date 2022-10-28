@@ -49,8 +49,10 @@ import static javax.swing.SwingUtilities.invokeLater;
  *  3) Extra: Java 8 and Functional Programming
  *
  *  This project uses both Object-Oriented Programming principles
- *  and also Functional Programming principles. All Entities and Value Objects are immutable.
- *  The model class SalesReport makes heavy use of Java 8 Functional Programming features,
+ *  and also Functional Programming principles.
+ *  All Entities and Value Objects are immutable.
+ *  The model class SalesReport makes heavy use
+ *  of Java 8 Functional Programming features,
  *  like lambdas, method references and Streams.
  *
  *  @author Alex Angulo
