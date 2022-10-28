@@ -26,11 +26,9 @@ public class SalesDesktopGui extends JFrame {
     private static final int COLUMNS = 2;
 
     private final SalesReportApplication salesReportApplication;
-    private final JPanel panel;
 
     public SalesDesktopGui(SalesReportApplication salesReportApplication) {
         this.salesReportApplication = salesReportApplication;
-        this.panel = new JPanel();
         init();
     }
 
