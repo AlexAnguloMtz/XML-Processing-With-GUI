@@ -20,8 +20,7 @@ import java.util.List;
  * @author Alex Angulo
  */
 
-public class XmlSaleRecordRepository extends DefaultHandler
-                                     implements SaleRecordRepository {
+public class XmlSaleRecordRepository implements SaleRecordRepository {
 
         private final XmlSaleRecordHandler xmlHandler;
         private final SAXParser parser;

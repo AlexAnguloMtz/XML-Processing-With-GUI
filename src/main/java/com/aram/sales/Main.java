@@ -50,7 +50,7 @@ import static javax.swing.SwingUtilities.invokeLater;
  */
 
 public class Main {
-    
+
     private static final String FILE_NAME = "sales.xml";
 
     public static void main(String[] args) {
